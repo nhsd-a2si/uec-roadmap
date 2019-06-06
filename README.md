@@ -1,4 +1,28 @@
-# Based on GOV.UK Prototype kit
+# Roadmap Kit - an easy to update, responsive HTML+CSS (no JS) roadmap
+
+One page, draws columns with fixed sized units (so watch your character counts) with clickable popups with a bigger info sheet - uses HTML5 details/summary so no JS needed.
+
+install it locally
+`git clone https://github.com/nhsd-a2si/uec-roadmap.git roadmap`
+
+move into the new directory
+`cd roadmap`
+
+install all the dependencies
+`npm install`
+
+duplicate the roadmap-0519.html file and make your edits 
+
+commit and push
+`git add .`
+`git commit -m "my updated roadmap"`
+`git push nhsd-a2si master`
+
+It's recommended to set up a Herokuapp to look at the repo and automatically publish updates
+
+Advisable to make a duplicate of the most recent file - roadmap-0519.html at time of writing, and dive in.
+
+## Based on GOV.UK Prototype kit (but not much)
 
 Go to the [GOV.UK Prototype Kit site](https://govuk-prototype-kit.herokuapp.com/docs) to download the latest version and read the documentation.
 
